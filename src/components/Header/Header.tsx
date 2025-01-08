@@ -1,4 +1,5 @@
 import Button from "../Cards/Button";
+import me from "../../assets/me.png";
 
 
 const Header = () => {
@@ -27,7 +28,7 @@ const Header = () => {
             {/* Circle Image */}
             <div className="bg-gradient-to-r from-indigo-400 via-purple-500 to-pink-500 rounded-full pl-11 shadow-[4.0px_8.0px_8.0px_rgba(0,0,0,0.38)] shadow-blue-500/20 overflow-hidde" style={{position: 'absolute', right:0, top:20, width: "500px", height: "450px" }}>
            
-                <img className="ml-11 pt-5 absolute right-1" src="src/assets/me.png" />
+                <img className="ml-11 pt-5 absolute right-1" src={me} />
             </div>
 
             </div>
