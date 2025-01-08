@@ -1,7 +1,3 @@
-import {BiCodeAlt, BiUser} from 'react-icons/Bi'
-import {PiPaintBrushBroadBold} from 'react-icons/Pi'
-
-
 const ServicesOffered = () => {
   return (
     <div className="flex justify-center gap-x-8 pb-11 mb-11">
