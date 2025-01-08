@@ -6,11 +6,11 @@ const ServicesOffered = () => {
   return (
     <div className="flex justify-center gap-x-8 pb-11 mb-11">
      
-      <div className ="flex justify-center text-white text-2xl pt-5  bg-gradient-to-r from-slate-700 via-slate-800 to-slate-900 rounded-lg pl-11 shadow-[4.0px_8.0px_8.0px_rgba(0,0,0,0.38)]" style={{height:600, width:500}}><BiUser color="white" size="75" className="bg-pink-600 rounded-full"/>Collaboration</div>
+      <div className ="flex justify-center text-white text-2xl pt-5  bg-gradient-to-r from-slate-700 via-slate-800 to-slate-900 rounded-lg pl-11 shadow-[4.0px_8.0px_8.0px_rgba(0,0,0,0.38)]" style={{height:600, width:500}}>Collaboration</div>
       
-      <div className ="flex justify-center text-white text-2xl pt-5  bg-gradient-to-r from-slate-700 via-slate-800 to-slate-900 rounded-lg pl-11 shadow-[4.0px_8.0px_8.0px_rgba(0,0,0,0.38)]" style={{height:600, width:500}}> <PiPaintBrushBroadBold color="white" size="75" className="bg-pink-600 rounded-full"/>Website Design</div>
+      <div className ="flex justify-center text-white text-2xl pt-5  bg-gradient-to-r from-slate-700 via-slate-800 to-slate-900 rounded-lg pl-11 shadow-[4.0px_8.0px_8.0px_rgba(0,0,0,0.38)]" style={{height:600, width:500}}>Website Design</div>
       
-      <div className ="flex justify-center text-white text-2xl pt-5  bg-gradient-to-r from-slate-700 via-slate-800 to-slate-900 rounded-lg pl-11 shadow-[4.0px_8.0px_8.0px_rgba(0,0,0,0.38)]" style={{height:600, width:500}}><BiCodeAlt color="white" size="75" className="bg-pink-600 rounded-full" />Web development</div>
+      <div className ="flex justify-center text-white text-2xl pt-5  bg-gradient-to-r from-slate-700 via-slate-800 to-slate-900 rounded-lg pl-11 shadow-[4.0px_8.0px_8.0px_rgba(0,0,0,0.38)]" style={{height:600, width:500}}>Web development</div>
     </div>
   )
 } 
@@ -24,3 +24,10 @@ export default ServicesOffered
 // <span className="mx-4 flex-shrink text-gray-400">Content</span>
 // <div className="flex-grow border-t border-gray-400"></div>
 // </div>
+
+
+{/* <div className ="flex justify-center text-white text-2xl pt-5  bg-gradient-to-r from-slate-700 via-slate-800 to-slate-900 rounded-lg pl-11 shadow-[4.0px_8.0px_8.0px_rgba(0,0,0,0.38)]" style={{height:600, width:500}}><BiUser color="white" size="75" className="bg-pink-600 rounded-full"/>Collaboration</div>
+      
+      <div className ="flex justify-center text-white text-2xl pt-5  bg-gradient-to-r from-slate-700 via-slate-800 to-slate-900 rounded-lg pl-11 shadow-[4.0px_8.0px_8.0px_rgba(0,0,0,0.38)]" style={{height:600, width:500}}> <PiPaintBrushBroadBold color="white" size="75" className="bg-pink-600 rounded-full"/>Website Design</div>
+      
+      <div className ="flex justify-center text-white text-2xl pt-5  bg-gradient-to-r from-slate-700 via-slate-800 to-slate-900 rounded-lg pl-11 shadow-[4.0px_8.0px_8.0px_rgba(0,0,0,0.38)]" style={{height:600, width:500}}><BiCodeAlt color="white" size="75" className="bg-pink-600 rounded-full" />Web development</div> */}
