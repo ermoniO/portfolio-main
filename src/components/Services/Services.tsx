@@ -1,3 +1,4 @@
+import cartoonImage from "../../assets/cartoonImage.png"
 import ServicesOffered from "./ServicesOffered"
 
 
@@ -20,7 +21,7 @@ const Services = () => {
       <div className="bg-slate-800 flex justify-center">
           <div className="text-7xl pr-10 text-white mt-11"><span className="text-pink-500">My</span><br /> Services</div>
             <div className="bg-gradient-to-r from-indigo-400 via-purple-500 to-pink-500 rounded-full pl-11 shadow-[4.0px_8.0px_8.0px_rgba(0,0,0,0.38)] shadow-blue-500/20 overflow-hidden" style={{ width: "400px", height: "300px" }}>
-            <img className="mr-11"src="src/assets/cartoonImage.png" />
+            <img className="mr-11"src={cartoonImage} />
           </div>
    
         </div>
